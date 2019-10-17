@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Weather Dashboard</h1>
+      </div>
+      <hr />
+      <div class="columns">
+        <div class="field">
+          <div class="control">
+            <input
+              class="input is-left column"
+              type="text"
+              placeholder="Search your destination"
+            />
+          </div>
+          <button class="button">Search</button>
+        </div>
+
+        <hr />
+
+        <div id="history"></div>
+
+        <div id="results"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

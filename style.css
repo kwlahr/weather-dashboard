@@ -1,3 +1,24 @@
 .section{
     display: block;
 }
+
+.columns{
+    height: 100%;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+a{
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+a.hover{
+    color: cornsilk;
+    text-decoration: underline;
+}
+
+a.active{
+    color: cornsilk;
+    text-decoration: underline;
+}

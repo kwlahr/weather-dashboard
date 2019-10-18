@@ -13,6 +13,7 @@ var country = "us";
   var latitude = "37.75";
   var longitude = "-122.37";
   var uvURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + latitude + "&lon=" + longitude + "&appid=e118a9757bbd90e8cbd8a9d2eff8445f";
+  var iconURL = "http://openweathermap.org/img/w/10d.png";
 
   $("#search").on("click", function(){
   
@@ -35,9 +36,8 @@ var country = "us";
       console.log(response);
       var farenheit = (response.main.temp - 273.15) * 9/5 + 32;
       // var iconCode = "10d";
-      var iconURL = "http://openweathermap.org/img/w/10d.png";
       $(".city").append("City: " + "<a href='#'>" + response.name + "</a>");
-      $('#wicon').append("<img id='wicon' src='" + iconURL + "'" + ">");
+      $('#icon').append("<img id='wicon' src='" + iconURL + "' alt='Weather icon'>");
       $(".date").append("Today: " + simpleDate);
       $(".temp").append("Current temperature: " + Math.round(farenheit) + " &#xb0;F");
       $(".humidity").append("Current humidity: " + response.main.humidity + "%");

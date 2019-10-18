@@ -18,29 +18,36 @@
       </div>
       <hr />
       <div class="columns">
-        <div class="field">
+        <div class="field section">
           <div class="control">
             <input
-              class="input is-left column"
+              class="input column"
               type="text"
               placeholder="City Name"
               id="cityName"
             />
             <input
-              class="input is-left column"
+              class="input column"
               type="text"
               placeholder="Country Name"
               id="countryName"
             />
           </div>
-          <button class="button">Search</button>
+          <button class="button" id="search">Search</button>
         </div>
 
         <hr />
 
-        <div id="history"></div>
+        <div class="section" id="history"></div>
 
-        <div id="results"></div>
+        <div class= "section" id="results">
+          <div class="city"></div>
+          <div class="date"></div>
+          <div class="temp"></div>
+          <div class="humidity"></div>
+          <div class="windSpeed"></div>
+          <div class="uv"></div>
+        </div>
         
       </div>
     </div>

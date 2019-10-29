@@ -25,8 +25,8 @@ window.onload = function () {
 
     var latitude = "37.75";
     var longitude = "-122.37";
-    var uvURL = "http://api.openweathermap.org/data/2.5/uvi?lat=" + latitude + "&lon=" + longitude + "&appid=e118a9757bbd90e8cbd8a9d2eff8445f";
-    var iconURL = "http://openweathermap.org/img/w/10d.png";
+    var uvURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + latitude + "&lon=" + longitude + "&appid=e118a9757bbd90e8cbd8a9d2eff8445f";
+    var iconURL = "https://openweathermap.org/img/w/10d.png";
     const queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "," + country + "&APPID=e118a9757bbd90e8cbd8a9d2eff8445f";
 
 

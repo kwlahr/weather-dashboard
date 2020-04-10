@@ -1,5 +1,4 @@
 //STILL NEED:
-//  -functional city, country search input
 //  -dynamic search history
 //  -5 day forcast linked to response.name ancher tag
 //  -dynamic latitude and longitude varialbes for UV Index API
